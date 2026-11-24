@@ -1,0 +1,1579 @@
+{
+  "component": "SLAM Toolbox",
+  "olive_source_release_tag": "olive-slam-toolbox-sources-20261124",
+  "source_changes": "No Olive changes to upstream source; only source-delivery documentation, archives and additional license copies.",
+  "versions": [
+    {
+      "component": "slam_toolbox",
+      "distro": "humble",
+      "package_version": "2.6.10",
+      "upstream_commit": "51a99767b3e2ed4076ae5763ff14b69343ffd884",
+      "source_archive": "slam-toolbox-humble-2.6.10-51a9976.tar.gz",
+      "archive_sha256": "de1f9feb3c4d57d5d5dc259000a5ce38b20faf6d6eab102ac8012580d8554095",
+      "archive_bytes": 53719596,
+      "archive_url": "https://codeload.github.com/SteveMacenski/slam_toolbox/tar.gz/51a99767b3e2ed4076ae5763ff14b69343ffd884",
+      "verified_upstream_file_count": 100,
+      "installed_files_matching": [
+        {
+          "installed_file": "share/slam_toolbox/solver_plugins.xml",
+          "source_file": "solver_plugins.xml",
+          "sha256": "7fc414fb3b3be48309ee27fe6c4fcbd56507b193c49a97dabc546dc38fbac533"
+        },
+        {
+          "installed_file": "share/slam_toolbox/package.xml",
+          "source_file": "package.xml",
+          "sha256": "b48da9ec8fec4e9e60097a0a0861df951cd10b13f8e4d5af0491b186d7b34c46"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_lifelong.yaml",
+          "source_file": "config/mapper_params_lifelong.yaml",
+          "sha256": "d21e6f0f78daca8fb89253c50e86f15b25a774fba3a91866bc706f20c987bcf0"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_offline.yaml",
+          "source_file": "config/mapper_params_offline.yaml",
+          "sha256": "0a2b95c0faca69b68654dba81a36545bb740c5fec70d0db7374baad74a74dda3"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/slam_toolbox_default.rviz",
+          "source_file": "config/slam_toolbox_default.rviz",
+          "sha256": "97065b7fc25f5d02c1d0479305fab4da725f5aadf9d24d0d3305e8769f5c9eb2"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_localization.yaml",
+          "source_file": "config/mapper_params_localization.yaml",
+          "sha256": "e1a2300f7cb1ff666f63eb0f4d8c86d16939ef36dfc0e05944870537d15430b5"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_online_async.yaml",
+          "source_file": "config/mapper_params_online_async.yaml",
+          "sha256": "76203b8e6ac33facab8db8ad5fee9176b80e42d86b8ffa866fea1733fa6b69a4"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_online_sync.yaml",
+          "source_file": "config/mapper_params_online_sync.yaml",
+          "sha256": "2f115e27c3424a2040aabe112400787e86ddb263f7a7186f1c34edac4a379c4d"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/DeserializePoseGraph.srv",
+          "source_file": "srv/DeserializePoseGraph.srv",
+          "sha256": "6c21806ad9987476d6ceea7b0fad0c746147ffe7247355950259478f1f275227"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/AddSubmap.srv",
+          "source_file": "srv/AddSubmap.srv",
+          "sha256": "88ac3b002059bec70b9d2d4dd1a9c953937285dbe275b007dd557ca872cc7d18"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/SaveMap.srv",
+          "source_file": "srv/SaveMap.srv",
+          "sha256": "a5e6254b516c2fb0a3f3f68013b70aea145d439a2990048b20777114fa6dc741"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/Pause.srv",
+          "source_file": "srv/Pause.srv",
+          "sha256": "ea924e18430f3a0d4f9f2cf87f251f2073b3eb718026ff1ae14f38b286b9b43c"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/MergeMaps.srv",
+          "source_file": "srv/MergeMaps.srv",
+          "sha256": "3d0b188170e8f7ed4b0a730d3fae39933057e60ba9e030bc278c446442cbabc3"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/SerializePoseGraph.srv",
+          "source_file": "srv/SerializePoseGraph.srv",
+          "sha256": "17fe283d24d2727b1518bced9bd3324f0fd3744e691091932ef3cce724efde84"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/LoopClosure.srv",
+          "source_file": "srv/LoopClosure.srv",
+          "sha256": "3d0b188170e8f7ed4b0a730d3fae39933057e60ba9e030bc278c446442cbabc3"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/ToggleInteractive.srv",
+          "source_file": "srv/ToggleInteractive.srv",
+          "sha256": "3d0b188170e8f7ed4b0a730d3fae39933057e60ba9e030bc278c446442cbabc3"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/ClearQueue.srv",
+          "source_file": "srv/ClearQueue.srv",
+          "sha256": "028b632201fe40f8705881e112d12bed5cf43e5623bd27718e9fa9cf0bb63417"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/Clear.srv",
+          "source_file": "srv/Clear.srv",
+          "sha256": "ffdf7d384dfced6cfc1b0ebcdc27bf3c292fb96f2e1cad2058daa5526d0069f8"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/online_sync_launch.py",
+          "source_file": "launch/online_sync_launch.py",
+          "sha256": "a95aab0c6655df9806133905f7620f0d9d07a0564e4909bf824d16243853fd1a"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/offline_launch.py",
+          "source_file": "launch/offline_launch.py",
+          "sha256": "7da5e5e8f92e48477436c7f6dfc70db1fc702359074b0af19b2983fa9a905c3a"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/merge_maps_kinematic_launch.py",
+          "source_file": "launch/merge_maps_kinematic_launch.py",
+          "sha256": "cdef8ef4705c5870e6f1f1d2ab496a781044fbfa72a3f648e3f4ee3c5c56ec06"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/online_async_launch.py",
+          "source_file": "launch/online_async_launch.py",
+          "sha256": "7770941d5e6715f43b303b8790c1b4196219852eceaf0506fa50b2e4b1e275e6"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/localization_launch.py",
+          "source_file": "launch/localization_launch.py",
+          "sha256": "8c42c519cbd139e618ee85a9605bbdc7a9147c00bb9a74ddd4a7e27b871358f0"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_toolbox_sync.hpp",
+          "source_file": "include/slam_toolbox/slam_toolbox_sync.hpp",
+          "sha256": "f240c8d0c809a806b4a1fb4375a17da063d8b6b663a945743e79c31083250c2d"
+        },
+        {
+          "installed_file": "include/slam_toolbox/visualization_utils.hpp",
+          "source_file": "include/slam_toolbox/visualization_utils.hpp",
+          "sha256": "dbad0c895b0bd73d552ffe0d65b1ffc48b1350f70fe023a5b29d5806f452e50a"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_toolbox_localization.hpp",
+          "source_file": "include/slam_toolbox/slam_toolbox_localization.hpp",
+          "sha256": "8ad9f997c4f61d37e2557f8b235d7b2ded17c90a2081ab067453b1b9d1d650c5"
+        },
+        {
+          "installed_file": "include/slam_toolbox/get_pose_helper.hpp",
+          "source_file": "include/slam_toolbox/get_pose_helper.hpp",
+          "sha256": "69842dc74d131f03c4cc6289032f26757dbe31dfab18821b6106204aa773d064"
+        },
+        {
+          "installed_file": "include/slam_toolbox/loop_closure_assistant.hpp",
+          "source_file": "include/slam_toolbox/loop_closure_assistant.hpp",
+          "sha256": "fdc2be4658d83924436891fa2ee48c6838461a589dd75414ae11b55f4e067da8"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_toolbox_common.hpp",
+          "source_file": "include/slam_toolbox/slam_toolbox_common.hpp",
+          "sha256": "db033542bdf77791b8d86f36695199a3dddb8a942afe4c4e8be4b9c11979c5ec"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_toolbox_async.hpp",
+          "source_file": "include/slam_toolbox/slam_toolbox_async.hpp",
+          "sha256": "7a7d32e01db2849a728d2e69133b31cc2fe8fc4962df6c9ec5cdfc90dee982f6"
+        },
+        {
+          "installed_file": "include/slam_toolbox/snap_utils.hpp",
+          "source_file": "include/slam_toolbox/snap_utils.hpp",
+          "sha256": "97e01b763e9ade4f39854c7d270f7e06b0f8ca85bed7e8c68e57c8bd2cdcf91d"
+        },
+        {
+          "installed_file": "include/slam_toolbox/map_saver.hpp",
+          "source_file": "include/slam_toolbox/map_saver.hpp",
+          "sha256": "5d6fa865047bebe8b0f583ca721400430a3c3eb1bf20b4cb8cde20b7e6b8f0f6"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_mapper.hpp",
+          "source_file": "include/slam_toolbox/slam_mapper.hpp",
+          "sha256": "dc31e3f1cf5182efcda6f78a6d0f368cd2b6402872860def6864505979d7b87b"
+        },
+        {
+          "installed_file": "include/slam_toolbox/merge_maps_kinematic.hpp",
+          "source_file": "include/slam_toolbox/merge_maps_kinematic.hpp",
+          "sha256": "141b9f4c9187c9863871dd52fd8ec8f78fbd1dad33f983ac0f5199a3eb3a91c1"
+        },
+        {
+          "installed_file": "include/slam_toolbox/serialization.hpp",
+          "source_file": "include/slam_toolbox/serialization.hpp",
+          "sha256": "c912637b3c79ee0e3f0399407dc87c26f326b994cb214f3b8171bd2e18e5d64b"
+        },
+        {
+          "installed_file": "include/slam_toolbox/toolbox_types.hpp",
+          "source_file": "include/slam_toolbox/toolbox_types.hpp",
+          "sha256": "110cf697bcfd8f247475c01a9120c4a98fab27c06a6de602e2dd898feffc5f34"
+        },
+        {
+          "installed_file": "include/slam_toolbox/toolbox_msgs.hpp",
+          "source_file": "include/slam_toolbox/toolbox_msgs.hpp",
+          "sha256": "edb6d6ce01c4a2dfc7314e46fc289c19e3c58e6b14fea72b8f280ada1064422d"
+        },
+        {
+          "installed_file": "include/slam_toolbox/laser_utils.hpp",
+          "source_file": "include/slam_toolbox/laser_utils.hpp",
+          "sha256": "548c7f575fbf814ce1e3d57f2a625fead3472977bc286017849c06d579386101"
+        },
+        {
+          "installed_file": "include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp",
+          "source_file": "include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp",
+          "sha256": "ecfaec761d5fa77ca81a297a9d823b4d3138688ba765b51edd6861acddc2abce"
+        },
+        {
+          "installed_file": "include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp",
+          "source_file": "include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp",
+          "sha256": "15d7fa1e9514a751a145b40342512486aa96a74a67d9669f803511a3fe6140aa"
+        },
+        {
+          "installed_file": "include/karto_sdk/Karto.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Karto.h",
+          "sha256": "277fd3ddbb4c655408660e7bab8ff39f49875af709bd7a83ff3d029190d44052"
+        },
+        {
+          "installed_file": "include/karto_sdk/Macros.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Macros.h",
+          "sha256": "a3c9276c53b633989d2f84621eabcfd6c31cceebfdbcf7dc4bc78ad963d7d9a1"
+        },
+        {
+          "installed_file": "include/karto_sdk/Mapper.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Mapper.h",
+          "sha256": "22fa817360fc46284bdfc4239c4fcb723c081ce9f0b9e3e88c75a7a97bdd2b40"
+        },
+        {
+          "installed_file": "include/karto_sdk/Math.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Math.h",
+          "sha256": "16c2fe87fe999c50b9470f0a1c39647e83cf258006f42eb016a7715e35005eea"
+        },
+        {
+          "installed_file": "include/karto_sdk/Types.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Types.h",
+          "sha256": "3c35323ffb4fc170218649a7f85c062ed6ab7912b4e644a8721937be143fc391"
+        },
+        {
+          "installed_file": "include/karto_sdk/nanoflann.hpp",
+          "source_file": "lib/karto_sdk/include/karto_sdk/nanoflann.hpp",
+          "sha256": "b720aef9c469da0f281f01fff65f57f3c4ac80b828dfff0947d2d2f16324249f"
+        },
+        {
+          "installed_file": "include/karto_sdk/nanoflann_adaptors.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/nanoflann_adaptors.h",
+          "sha256": "91085bd7e3a47f9a4674a1e4f89d7b6ebcc0779d4b231266cd653f181f9c5200"
+        }
+      ],
+      "binary_records": [
+        {
+          "binary": "lib/libasync_slam_toolbox.so",
+          "sha256": "202b1c38bea4efc7eba9c0d1b08cce1082203d785c52f22aa7efc05ae2e96ec4"
+        },
+        {
+          "binary": "lib/libceres_solver_plugin.so",
+          "sha256": "9fb855f93ebdacc8b2d42eaddc64dab7593eedfa1c23c74a28320ffbdbce52da"
+        },
+        {
+          "binary": "lib/liblifelong_slam_toolbox.so",
+          "sha256": "4f8e84544a86341a611135ee12f83d89a6ca4610c2ad8828efadfe369ba1fd92"
+        },
+        {
+          "binary": "lib/liblocalization_slam_toolbox.so",
+          "sha256": "efb8599ba8dc6391c3f9e44fded802f540e867bde357a0532a6e418cb3ce8b98"
+        },
+        {
+          "binary": "lib/libmap_and_localization_slam_toolbox.so",
+          "sha256": "3501480f69bbaae4d84781977e7f1507e51d10d5bc0f8f00ff5c5ec40c5bceb0"
+        },
+        {
+          "binary": "lib/libsync_slam_toolbox.so",
+          "sha256": "96a51446695e3e7634ed51deef6d1be725aee0a7a882524f63a566eb382aecf4"
+        },
+        {
+          "binary": "lib/libtoolbox_common.so",
+          "sha256": "5bcbf53267ccb1fbd3e46b005e8c96a5f235f3295ef6d38911e956eb23881dcb"
+        }
+      ],
+      "logging_locations_matching": [
+        {
+          "source_file": "src/slam_toolbox_async.cpp",
+          "line": 43,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_async.cpp",
+          "line": 51,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to create laser device for\""
+        },
+        {
+          "source_file": "src/slam_toolbox_async.cpp",
+          "line": 70,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Requested a localization deserialization \""
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 54,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 58,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 66,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 70,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 74,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 82,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 86,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 102,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 111,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 180,
+          "source_text": "RCLCPP_WARN(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 191,
+          "source_text": "RCLCPP_DEBUG(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 208,
+          "source_text": "RCLCPP_WARN(node_->get_logger(), \"CeresSolver: \""
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 314,
+          "source_text": "RCLCPP_WARN(node_->get_logger(),"
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 364,
+          "source_text": "RCLCPP_DEBUG("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 370,
+          "source_text": "RCLCPP_DEBUG("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 377,
+          "source_text": "RCLCPP_ERROR(node_->get_logger(), \"RemoveNode: Failed to find node matching id %i\","
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 398,
+          "source_text": "RCLCPP_ERROR(node_->get_logger(),"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 31,
+          "source_text": "RCLCPP_FATAL(get_logger(),"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 72,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Lifelong mapping mode in SLAM Toolbox is considered \""
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 91,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 99,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to create laser device for\""
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 133,
+          "source_text": "RCLCPP_DEBUG(get_logger(),"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 211,
+          "source_text": "RCLCPP_ERROR(get_logger(),"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 252,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Metric Scores: Initial: %f, IOU: %f,\""
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 329,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Requested a localization deserialization \""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 66,
+          "source_text": "RCLCPP_WARN(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 83,
+          "source_text": "RCLCPP_INFO(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 96,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"LocalizationSlamToolbox: Cannot call serialize map \""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 109,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Requested a non-localization deserialization \""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 126,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 134,
+          "source_text": "RCLCPP_WARN(get_logger(), \"SynchronousSlamToolbox: Failed to create laser\""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 169,
+          "source_text": "RCLCPP_ERROR(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 188,
+          "source_text": "RCLCPP_FATAL(get_logger(), \"LocalizationSlamToolbox: \""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 215,
+          "source_text": "RCLCPP_ERROR(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 235,
+          "source_text": "RCLCPP_INFO(get_logger(),"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_map_and_localization.cpp",
+          "line": 66,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Enabling localization ...\");"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_map_and_localization.cpp",
+          "line": 81,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Enabling mapping ...\");"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_map_and_localization.cpp",
+          "line": 146,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_map_and_localization.cpp",
+          "line": 154,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to create laser device for\""
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 56,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Queue size has grown to: %i. \""
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 82,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 90,
+          "source_text": "RCLCPP_WARN(get_logger(), \"SynchronousSlamToolbox: Failed to create laser\""
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 109,
+          "source_text": "RCLCPP_INFO(get_logger(), \"SynchronousSlamToolbox: \""
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 126,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Requested a localization deserialization \""
+        },
+        {
+          "source_file": "include/slam_toolbox/serialization.hpp",
+          "line": 48,
+          "source_text": "RCLCPP_ERROR(node->get_logger(),"
+        },
+        {
+          "source_file": "include/slam_toolbox/serialization.hpp",
+          "line": 61,
+          "source_text": "RCLCPP_ERROR(node->get_logger(),"
+        },
+        {
+          "source_file": "include/slam_toolbox/serialization.hpp",
+          "line": 72,
+          "source_text": "RCLCPP_ERROR(node->get_logger(),"
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 110,
+          "source_text": "RCLCPP_WARN(node_->get_logger(),"
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 117,
+          "source_text": "RCLCPP_WARN(node_->get_logger(),"
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 150,
+          "source_text": "RCLCPP_WARN(node_->get_logger(),"
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 157,
+          "source_text": "RCLCPP_WARN(node_->get_logger(),"
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 176,
+          "source_text": "RCLCPP_DEBUG(node_->get_logger(), \"laser %s's pose wrt base: %.3f %.3f %.3f %.3f\","
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 189,
+          "source_text": "RCLCPP_DEBUG(node_->get_logger(), \"laser is mounted upside-down\");"
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 88,
+          "source_text": "RCLCPP_ERROR_THROTTLE(node_->get_logger(), *node_->get_clock(), 5,"
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 159,
+          "source_text": "RCLCPP_DEBUG(node_->get_logger(), \"Graph size: %zu\", graph->size());"
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 276,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 287,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 293,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 325,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 339,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 369,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 375,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 395,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "src/map_saver.cpp",
+          "line": 53,
+          "source_text": "RCLCPP_WARN(node_->get_logger(),"
+        },
+        {
+          "source_file": "src/map_saver.cpp",
+          "line": 68,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "src/map_saver.cpp",
+          "line": 77,
+          "source_text": "RCLCPP_INFO(node_->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 133,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 146,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 222,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 237,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 254,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 268,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 281,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 294,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 113,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Using solver plugin %s\","
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 117,
+          "source_text": "RCLCPP_FATAL(get_logger(), \"Failed to create %s, is it \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 141,
+          "source_text": "RCLCPP_WARN(this->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 161,
+          "source_text": "RCLCPP_WARN(this->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 355,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"LocalizationSlamToolbox: Incorrect \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 369,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"LocalizationSlamToolbox: Map starting \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 392,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Failed to compute laser pose, \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 459,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Transform from base_link to odom failed: %s\","
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 596,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Process near region called without a \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 608,
+          "source_text": "RCLCPP_FATAL(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 685,
+          "source_text": "RCLCPP_INFO(get_logger(), \"SlamToolbox: Toggled to %s\","
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 763,
+          "source_text": "RCLCPP_FATAL(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 770,
+          "source_text": "RCLCPP_FATAL(get_logger(), \"loadSerializedPoseGraph: Cannot deserialize \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 784,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Invalid sensor pointer in dataset.\""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 799,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Deserialization called without valid\""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 807,
+          "source_text": "RCLCPP_WARN(get_logger(), \"No map file given!\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 820,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"DeserializePoseGraph: Failed to read \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 824,
+          "source_text": "RCLCPP_DEBUG(get_logger(), \"DeserializePoseGraph: Successfully read file.\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 846,
+          "source_text": "RCLCPP_FATAL(get_logger(),"
+        }
+      ],
+      "provenance": "User reports official upstream source without local source modifications. Installed files and binary source-location evidence support the selected revision. A bit-for-bit rebuild and original toolchain recovery have not been performed."
+    },
+    {
+      "component": "slam_toolbox",
+      "distro": "jazzy",
+      "package_version": "2.8.5",
+      "upstream_commit": "02afdde003313a10b8d21461a92d9e5f4f0bc5f2",
+      "source_archive": "slam-toolbox-jazzy-2.8.5-02afdde.tar.gz",
+      "archive_sha256": "e8d5cc01af0268aea98a3db652024c844dec43feda68a5808b71f6e495f7b904",
+      "archive_bytes": 54281720,
+      "archive_url": "https://codeload.github.com/SteveMacenski/slam_toolbox/tar.gz/02afdde003313a10b8d21461a92d9e5f4f0bc5f2",
+      "verified_upstream_file_count": 100,
+      "installed_files_matching": [
+        {
+          "installed_file": "share/slam_toolbox/solver_plugins.xml",
+          "source_file": "solver_plugins.xml",
+          "sha256": "7fc414fb3b3be48309ee27fe6c4fcbd56507b193c49a97dabc546dc38fbac533"
+        },
+        {
+          "installed_file": "share/slam_toolbox/package.xml",
+          "source_file": "package.xml",
+          "sha256": "34cbdcee76b26a7709cc41f40ae6466e0edfb1a9fa97f35a173a8184075c6cb2"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_lifelong.yaml",
+          "source_file": "config/mapper_params_lifelong.yaml",
+          "sha256": "f4e11bdebbf7a2e3e1d7d27caeeb5307a3ea0881bb1d11020e4de300bc3007eb"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_offline.yaml",
+          "source_file": "config/mapper_params_offline.yaml",
+          "sha256": "348e80e87525f38085b7b6515db6ae7577a08cb18cd988fe6bdee865328e2c2b"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/slam_toolbox_default.rviz",
+          "source_file": "config/slam_toolbox_default.rviz",
+          "sha256": "97065b7fc25f5d02c1d0479305fab4da725f5aadf9d24d0d3305e8769f5c9eb2"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_localization.yaml",
+          "source_file": "config/mapper_params_localization.yaml",
+          "sha256": "e16a36fdb1089a07cd92ed393c8a669f7892fae568de41456db7e1edacc7f624"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_online_async.yaml",
+          "source_file": "config/mapper_params_online_async.yaml",
+          "sha256": "a47dcd2ade5929b491d1897df539dceeabaaa3bfe6dc0d39f1f7af6c53d79a8c"
+        },
+        {
+          "installed_file": "share/slam_toolbox/config/mapper_params_online_sync.yaml",
+          "source_file": "config/mapper_params_online_sync.yaml",
+          "sha256": "325ab875cea82b13437546fbf8fcae9177e91efe2e9ca989eb991fc5cbf6095e"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/DeserializePoseGraph.srv",
+          "source_file": "srv/DeserializePoseGraph.srv",
+          "sha256": "6c21806ad9987476d6ceea7b0fad0c746147ffe7247355950259478f1f275227"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/AddSubmap.srv",
+          "source_file": "srv/AddSubmap.srv",
+          "sha256": "88ac3b002059bec70b9d2d4dd1a9c953937285dbe275b007dd557ca872cc7d18"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/Reset.srv",
+          "source_file": "srv/Reset.srv",
+          "sha256": "f51bea7ef50ab962317b11e70ba462cbe4f630493e50129ff38996e2552211e1"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/SaveMap.srv",
+          "source_file": "srv/SaveMap.srv",
+          "sha256": "a5e6254b516c2fb0a3f3f68013b70aea145d439a2990048b20777114fa6dc741"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/Pause.srv",
+          "source_file": "srv/Pause.srv",
+          "sha256": "ea924e18430f3a0d4f9f2cf87f251f2073b3eb718026ff1ae14f38b286b9b43c"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/MergeMaps.srv",
+          "source_file": "srv/MergeMaps.srv",
+          "sha256": "3d0b188170e8f7ed4b0a730d3fae39933057e60ba9e030bc278c446442cbabc3"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/SerializePoseGraph.srv",
+          "source_file": "srv/SerializePoseGraph.srv",
+          "sha256": "17fe283d24d2727b1518bced9bd3324f0fd3744e691091932ef3cce724efde84"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/LoopClosure.srv",
+          "source_file": "srv/LoopClosure.srv",
+          "sha256": "3d0b188170e8f7ed4b0a730d3fae39933057e60ba9e030bc278c446442cbabc3"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/ToggleInteractive.srv",
+          "source_file": "srv/ToggleInteractive.srv",
+          "sha256": "3d0b188170e8f7ed4b0a730d3fae39933057e60ba9e030bc278c446442cbabc3"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/ClearQueue.srv",
+          "source_file": "srv/ClearQueue.srv",
+          "sha256": "028b632201fe40f8705881e112d12bed5cf43e5623bd27718e9fa9cf0bb63417"
+        },
+        {
+          "installed_file": "share/slam_toolbox/srv/Clear.srv",
+          "source_file": "srv/Clear.srv",
+          "sha256": "ffdf7d384dfced6cfc1b0ebcdc27bf3c292fb96f2e1cad2058daa5526d0069f8"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/online_sync_launch.py",
+          "source_file": "launch/online_sync_launch.py",
+          "sha256": "a24317e222af37bb31cbe7f05fff8baf63adb9420c472cb8b4543dad36abe3b0"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/offline_launch.py",
+          "source_file": "launch/offline_launch.py",
+          "sha256": "35bb7f26acb25b519942402ee154c5d411b8ff29a54dd438065150a80d20491c"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/merge_maps_kinematic_launch.py",
+          "source_file": "launch/merge_maps_kinematic_launch.py",
+          "sha256": "cdef8ef4705c5870e6f1f1d2ab496a781044fbfa72a3f648e3f4ee3c5c56ec06"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/online_async_launch.py",
+          "source_file": "launch/online_async_launch.py",
+          "sha256": "73b6969ae58c53ef1eb3f630b373eba2c5fb0859fa1a5a4a2dfc26790902146f"
+        },
+        {
+          "installed_file": "share/slam_toolbox/launch/localization_launch.py",
+          "source_file": "launch/localization_launch.py",
+          "sha256": "89525394ad0527ed6e9520e837ec550736883d39058111f7df58d924ec2cf017"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_toolbox_sync.hpp",
+          "source_file": "include/slam_toolbox/slam_toolbox_sync.hpp",
+          "sha256": "b31c8aaa4ffde339c1c084f083bcd366f170a24f311c001a409b11a446915c9b"
+        },
+        {
+          "installed_file": "include/slam_toolbox/visualization_utils.hpp",
+          "source_file": "include/slam_toolbox/visualization_utils.hpp",
+          "sha256": "4c43e55615d114078e8bda80ccbe3eba32b1c575739606535a3ba6fc0ff6d6e5"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_toolbox_localization.hpp",
+          "source_file": "include/slam_toolbox/slam_toolbox_localization.hpp",
+          "sha256": "55c279769cd0a3aab7117665f04fd1781c442998ebcb23a58767b78fe22bb471"
+        },
+        {
+          "installed_file": "include/slam_toolbox/get_pose_helper.hpp",
+          "source_file": "include/slam_toolbox/get_pose_helper.hpp",
+          "sha256": "69842dc74d131f03c4cc6289032f26757dbe31dfab18821b6106204aa773d064"
+        },
+        {
+          "installed_file": "include/slam_toolbox/loop_closure_assistant.hpp",
+          "source_file": "include/slam_toolbox/loop_closure_assistant.hpp",
+          "sha256": "2054a5f49ce30491d86e57bba7ab7e5ab35296dded15ffa3d1bf3ae32647b5ef"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_toolbox_common.hpp",
+          "source_file": "include/slam_toolbox/slam_toolbox_common.hpp",
+          "sha256": "424b5176d758d9e55b40ea2e73041fc936ab6fa03edec119f4a4db7912fd9331"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_toolbox_async.hpp",
+          "source_file": "include/slam_toolbox/slam_toolbox_async.hpp",
+          "sha256": "7a7d32e01db2849a728d2e69133b31cc2fe8fc4962df6c9ec5cdfc90dee982f6"
+        },
+        {
+          "installed_file": "include/slam_toolbox/snap_utils.hpp",
+          "source_file": "include/slam_toolbox/snap_utils.hpp",
+          "sha256": "97e01b763e9ade4f39854c7d270f7e06b0f8ca85bed7e8c68e57c8bd2cdcf91d"
+        },
+        {
+          "installed_file": "include/slam_toolbox/map_saver.hpp",
+          "source_file": "include/slam_toolbox/map_saver.hpp",
+          "sha256": "a6fa09dd9dbbaaadd614689c7a037742faf11be4b9c290033fa21bde83502a65"
+        },
+        {
+          "installed_file": "include/slam_toolbox/slam_mapper.hpp",
+          "source_file": "include/slam_toolbox/slam_mapper.hpp",
+          "sha256": "4738a127bad83e5e1af63c677fa755134529e99497f97177813c35343ff21e87"
+        },
+        {
+          "installed_file": "include/slam_toolbox/merge_maps_kinematic.hpp",
+          "source_file": "include/slam_toolbox/merge_maps_kinematic.hpp",
+          "sha256": "f728fd6d3d4b8ed7257d92efce326f272225ba9017a5e7bb8f267ce808012c3c"
+        },
+        {
+          "installed_file": "include/slam_toolbox/serialization.hpp",
+          "source_file": "include/slam_toolbox/serialization.hpp",
+          "sha256": "446b02996a4b1029008e791e4254c81b962c630bf1f38a0a5bb569f42de3d0a9"
+        },
+        {
+          "installed_file": "include/slam_toolbox/toolbox_types.hpp",
+          "source_file": "include/slam_toolbox/toolbox_types.hpp",
+          "sha256": "5cd3b148883f773453acf079e326aaefac17125c24e29a1c9621ccae13893099"
+        },
+        {
+          "installed_file": "include/slam_toolbox/toolbox_msgs.hpp",
+          "source_file": "include/slam_toolbox/toolbox_msgs.hpp",
+          "sha256": "92b7ffad87cd50d2722225e3775a609f92a7112da87e0b9d793b62c264384b84"
+        },
+        {
+          "installed_file": "include/slam_toolbox/laser_utils.hpp",
+          "source_file": "include/slam_toolbox/laser_utils.hpp",
+          "sha256": "85f8c475d323e6ccce1aa98cf686bbd86248dfe2b379cf002df710d854272840"
+        },
+        {
+          "installed_file": "include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp",
+          "source_file": "include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp",
+          "sha256": "4f64856f7a2541fbfe9209e6fb10b6344a10d9cc7c46e63f1fa77c91ce8d4bbe"
+        },
+        {
+          "installed_file": "include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp",
+          "source_file": "include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp",
+          "sha256": "3ab15da6771a0943f2ce96bc2cffb724c870a5a20c5cbb098c3300900371ab25"
+        },
+        {
+          "installed_file": "include/karto_sdk/Karto.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Karto.h",
+          "sha256": "277fd3ddbb4c655408660e7bab8ff39f49875af709bd7a83ff3d029190d44052"
+        },
+        {
+          "installed_file": "include/karto_sdk/Macros.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Macros.h",
+          "sha256": "a3c9276c53b633989d2f84621eabcfd6c31cceebfdbcf7dc4bc78ad963d7d9a1"
+        },
+        {
+          "installed_file": "include/karto_sdk/Mapper.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Mapper.h",
+          "sha256": "ed15ba656b901110aa2e86cecb1ea2ddd613214b8b7b1b3b0791d4fb3b6c9eb0"
+        },
+        {
+          "installed_file": "include/karto_sdk/Math.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Math.h",
+          "sha256": "16c2fe87fe999c50b9470f0a1c39647e83cf258006f42eb016a7715e35005eea"
+        },
+        {
+          "installed_file": "include/karto_sdk/Types.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/Types.h",
+          "sha256": "3c35323ffb4fc170218649a7f85c062ed6ab7912b4e644a8721937be143fc391"
+        },
+        {
+          "installed_file": "include/karto_sdk/nanoflann.hpp",
+          "source_file": "lib/karto_sdk/include/karto_sdk/nanoflann.hpp",
+          "sha256": "b720aef9c469da0f281f01fff65f57f3c4ac80b828dfff0947d2d2f16324249f"
+        },
+        {
+          "installed_file": "include/karto_sdk/nanoflann_adaptors.h",
+          "source_file": "lib/karto_sdk/include/karto_sdk/nanoflann_adaptors.h",
+          "sha256": "91085bd7e3a47f9a4674a1e4f89d7b6ebcc0779d4b231266cd653f181f9c5200"
+        }
+      ],
+      "binary_records": [
+        {
+          "binary": "lib/libasync_slam_toolbox.so",
+          "sha256": "8a6a5bd2959b03520645998d8039763f8b6d0f7ef96cd40d07e098cd73211adc"
+        },
+        {
+          "binary": "lib/libceres_solver_plugin.so",
+          "sha256": "3ac9c54fdd8a80d17cd3972888073ecf54e819d4faf10e7356358642693d8db1"
+        },
+        {
+          "binary": "lib/liblifelong_slam_toolbox.so",
+          "sha256": "c2948806bfe9ad9a8f92b0a3386922d98b7dc742f11610b25121088c4d9084ea"
+        },
+        {
+          "binary": "lib/liblocalization_slam_toolbox.so",
+          "sha256": "45f6b2db3346d81c8d38830784efdc7463542718d28b8843705044b982c04c54"
+        },
+        {
+          "binary": "lib/libmap_and_localization_slam_toolbox.so",
+          "sha256": "44300c5699b939cae6526a1c4ebf77fcd5816fac20b58c8a18ffc5ca323bd035"
+        },
+        {
+          "binary": "lib/libsync_slam_toolbox.so",
+          "sha256": "b07b25fe0d956790bd89349ab4b897ffc29daa54f7db59e3f2788f277203c20d"
+        },
+        {
+          "binary": "lib/libtoolbox_common.so",
+          "sha256": "208f0c51fc841946ff70bc3351c33db886dfc8f9b48b770e97818b5415513a31"
+        }
+      ],
+      "logging_locations_matching": [
+        {
+          "source_file": "src/slam_toolbox_async.cpp",
+          "line": 43,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_async.cpp",
+          "line": 51,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to create laser device for\""
+        },
+        {
+          "source_file": "src/slam_toolbox_async.cpp",
+          "line": 70,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Requested a localization deserialization \""
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 85,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 90,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 99,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 104,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 109,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 118,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 123,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 140,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 150,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 220,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 232,
+          "source_text": "RCLCPP_DEBUG("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 250,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 357,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 408,
+          "source_text": "RCLCPP_DEBUG("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 414,
+          "source_text": "RCLCPP_DEBUG("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 421,
+          "source_text": "RCLCPP_ERROR("
+        },
+        {
+          "source_file": "solvers/ceres_solver.cpp",
+          "line": 443,
+          "source_text": "RCLCPP_ERROR("
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 31,
+          "source_text": "RCLCPP_FATAL(get_logger(),"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 42,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Lifelong mapping mode in SLAM Toolbox is considered \""
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 126,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 134,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to create laser device for\""
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 168,
+          "source_text": "RCLCPP_DEBUG(get_logger(),"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 246,
+          "source_text": "RCLCPP_ERROR(get_logger(),"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 287,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Metric Scores: Initial: %f, IOU: %f,\""
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_lifelong.cpp",
+          "line": 364,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Requested a localization deserialization \""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 50,
+          "source_text": "RCLCPP_WARN(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 114,
+          "source_text": "RCLCPP_INFO(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 127,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"LocalizationSlamToolbox: Cannot call serialize map \""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 140,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Requested a non-localization deserialization \""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 157,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 165,
+          "source_text": "RCLCPP_WARN(get_logger(), \"SynchronousSlamToolbox: Failed to create laser\""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 200,
+          "source_text": "RCLCPP_ERROR(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 219,
+          "source_text": "RCLCPP_FATAL(get_logger(), \"LocalizationSlamToolbox: \""
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 246,
+          "source_text": "RCLCPP_ERROR(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 262,
+          "source_text": "RCLCPP_ERROR(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_localization.cpp",
+          "line": 283,
+          "source_text": "RCLCPP_INFO(get_logger(),"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_map_and_localization.cpp",
+          "line": 89,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Enabling localization ...\");"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_map_and_localization.cpp",
+          "line": 104,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Enabling mapping ...\");"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_map_and_localization.cpp",
+          "line": 169,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/experimental/slam_toolbox_map_and_localization.cpp",
+          "line": 177,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to create laser device for\""
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 51,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Queue size has grown to: %i. \""
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 104,
+          "source_text": "RCLCPP_WARN(get_logger(), \"Failed to compute odom pose\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 112,
+          "source_text": "RCLCPP_WARN(get_logger(), \"SynchronousSlamToolbox: Failed to create laser\""
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 131,
+          "source_text": "RCLCPP_INFO(get_logger(), \"SynchronousSlamToolbox: \""
+        },
+        {
+          "source_file": "src/slam_toolbox_sync.cpp",
+          "line": 148,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Requested a localization deserialization \""
+        },
+        {
+          "source_file": "include/slam_toolbox/serialization.hpp",
+          "line": 51,
+          "source_text": "RCLCPP_ERROR(node->get_logger(),"
+        },
+        {
+          "source_file": "include/slam_toolbox/serialization.hpp",
+          "line": 65,
+          "source_text": "RCLCPP_ERROR(node->get_logger(),"
+        },
+        {
+          "source_file": "include/slam_toolbox/serialization.hpp",
+          "line": 76,
+          "source_text": "RCLCPP_ERROR(node->get_logger(),"
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 132,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 140,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 160,
+          "source_text": "RCLCPP_DEBUG("
+        },
+        {
+          "source_file": "src/laser_utils.cpp",
+          "line": 174,
+          "source_text": "RCLCPP_DEBUG("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 95,
+          "source_text": "RCLCPP_ERROR_THROTTLE("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 167,
+          "source_text": "RCLCPP_DEBUG(logger_, \"Graph size: %zu\", graph->size());"
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 284,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 295,
+          "source_text": "RCLCPP_WARN(logger_, \"No moved nodes to attempt manual loop closure.\");"
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 299,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 331,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 346,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 378,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 384,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "src/loop_closure_assistant.cpp",
+          "line": 404,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "src/map_saver.cpp",
+          "line": 58,
+          "source_text": "RCLCPP_WARN("
+        },
+        {
+          "source_file": "src/map_saver.cpp",
+          "line": 71,
+          "source_text": "RCLCPP_ERROR(logger_, \"Invalid map file path: %s\", name.c_str());"
+        },
+        {
+          "source_file": "src/map_saver.cpp",
+          "line": 82,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "src/map_saver.cpp",
+          "line": 92,
+          "source_text": "RCLCPP_INFO("
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 134,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 147,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 223,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 238,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 255,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 269,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 282,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_mapper.cpp",
+          "line": 295,
+          "source_text": "RCLCPP_WARN(node->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 54,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Node using stack size %i\", (int)stack_size);"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 75,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Creating bond (%s) to lifecycle manager.\", this->get_name());"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 91,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Destroying bond (%s) to lifecycle manager.\", this->get_name());"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 102,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Configuring\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 149,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Activating\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 180,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Deactivating\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 215,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Cleaning up\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 238,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Shutting down\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 293,
+          "source_text": "RCLCPP_INFO(get_logger(), \"Using solver plugin %s\","
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 297,
+          "source_text": "RCLCPP_FATAL(get_logger(), \"Failed to create %s, is it \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 333,
+          "source_text": "RCLCPP_WARN(this->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 375,
+          "source_text": "RCLCPP_WARN(this->get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 604,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"LocalizationSlamToolbox: Incorrect \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 616,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"LocalizationSlamToolbox: Map starting \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 639,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Failed to compute laser pose, \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 706,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Transform from base_link to odom failed: %s\","
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 857,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Process near region called without a \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 869,
+          "source_text": "RCLCPP_FATAL(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 946,
+          "source_text": "RCLCPP_INFO(get_logger(), \"SlamToolbox: Toggled to %s\","
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 1022,
+          "source_text": "RCLCPP_FATAL(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 1031,
+          "source_text": "RCLCPP_FATAL(get_logger(), \"loadSerializedPoseGraph: Cannot deserialize \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 1045,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Invalid sensor pointer in dataset.\""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 1060,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"Deserialization called without valid\""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 1068,
+          "source_text": "RCLCPP_WARN(get_logger(), \"No map file given!\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 1081,
+          "source_text": "RCLCPP_ERROR(get_logger(), \"DeserializePoseGraph: Failed to read \""
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 1085,
+          "source_text": "RCLCPP_DEBUG(get_logger(), \"DeserializePoseGraph: Successfully read file.\");"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 1107,
+          "source_text": "RCLCPP_FATAL(get_logger(),"
+        },
+        {
+          "source_file": "src/slam_toolbox_common.cpp",
+          "line": 1133,
+          "source_text": "RCLCPP_INFO(get_logger(),"
+        }
+      ],
+      "provenance": "User reports official upstream source without local source modifications. Installed files and binary source-location evidence support the selected revision. A bit-for-bit rebuild and original toolchain recovery have not been performed."
+    }
+  ]
+}
